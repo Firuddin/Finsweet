@@ -7,6 +7,7 @@ import Blog from "../../Pages/Blog/Blog";
 import Contact from "../../Pages/Contact/Contact";
 import Pricing from "../../Pages/Pricing/Pricing";
 import Product from "../../Pages/Product/Product";
+import Freetrial from "../../Pages/Freetrial";
 
 
 const WebRouting = () => {
@@ -19,6 +20,7 @@ const WebRouting = () => {
         <Route path="/Pricing" element={<Pricing/>}/>
         <Route path="/Product" element={<Product/>}/>
         <Route path="*Error" element={<Error/>}/>
+        <Route path="/Freetrial" element= {<Freetrial/>}/>
     </Routes>
   )
 }

@@ -1,10 +1,10 @@
-import Home from "../../Pages/HomePage/Home";
 import AboutUs from "../../Pages/About Us/AboutUs";
 import Blog from "../../Pages/Blog/Blog";
 import Contact from "../../Pages/Contact/Contact";
+import Error from "../../Pages/Errorpage/Error";
+import Home from "../../Pages/HomePage/Home";
 import Pricing from "../../Pages/Pricing/Pricing";
 import Product from "../../Pages/Product/Product";
-import Error from "../../Pages/Errorpage/Error";
 
 export const MyRoutes =[
         { id: 1, path: "/", Element: Home, title: "Home" },

@@ -2,14 +2,17 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { MyRoutes } from '../My Routes';
 import styles from "./style.module.css"
+import Freetrial from '../../Pages/Freetrial';
 export const Navigation = () => {
-    return (
-        <header>
-            <div className='container mx-auto'>
-                <div className='logo'>
-                    <img src="./Logo.png" alt="" />
-                </div>
-                <nav>
+  return (
+    <header>
+      <div className='container  mx-auto flex justify-between items-center py-8'>
+        <div className='logo'>
+          <img src="./Logo.png" alt="" />
+        </div>
+        <div className="hidden sm:block ">
+
+          <div className='flex gap-5 items-center' >
             {MyRoutes.map(({ id, path, title }) => {
               return (
                 <NavLink
@@ -22,12 +25,16 @@ export const Navigation = () => {
                   to={path}
                 >
                   {title}
+
                 </NavLink>
               );
             })}
-          </nav>
-            </div>
+            <Freetrial />
 
-        </header>
-    )
+          </div>
+        </div>
+      </div>
+
+    </header>
+  )
 }
