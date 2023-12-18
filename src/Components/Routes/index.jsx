@@ -18,7 +18,7 @@ const WebRouting = () => {
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/Pricing" element={<Pricing/>}/>
         <Route path="/Product" element={<Product/>}/>
-        <Route path="*"
+        <Route path="*Error" element={<Error/>}/>
     </Routes>
   )
 }

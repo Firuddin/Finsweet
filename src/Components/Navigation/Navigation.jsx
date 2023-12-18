@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { MyRoutes } from '../My Routes';
+import styles from "./style.module.css"
 export const Navigation = () => {
     return (
         <header>

@@ -1,0 +1,7 @@
+.navlink{
+    display: flex;
+}
+
+.active{
+    color: red;
+}
