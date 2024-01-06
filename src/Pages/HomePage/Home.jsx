@@ -41,16 +41,25 @@ const Home = () => {
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
         </div>
       </div>
-      <div className='flex items-center justify-center ml-20 mr-20 mt-15'>
-        <div>
-          <h4>Why should you work with us?</h4>
-          <h2>To upscale your business to the next level</h2>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua invidunt ut labore.</p>
+      <div className='flex items-center justify-center ml-20 mr-20 mt-20  gap-60  '>
+        <div className=''>
+          <h4 className='font-bold text-three text-2xl mb-3'>Why should you work with us?</h4>
+          <h2 className='font-bold text-one text-4xl mb-4'>To upscale your business <br /> to the next level</h2>
+          <p className='text-sm'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br />eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam <br />voluptua invidunt ut labore.</p>
         </div>
-        <div>
-          <img src="../../../public/Icon.svg" alt=""/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-          <img src="../../../public/Icon.svg" alt="" /> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-          <img src="../../../public/Icon.svg" alt="" /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+        <div className="flex flex-col items-center ">
+          <div className="flex items-center mb-4">
+            <img src="../../../public/Icon.svg" alt="" className='mr-4 ' />
+            <p className='font-bold text-one text-1xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br /> sed do eiusmod.</p>
+          </div>
+          <div className="flex items-center mb-4">
+            <img src="../../../public/Icon.svg" alt="" className='mr-4' />
+            <p className='font-bold text-one text-1xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br /> sed do eiusmod.</p>
+          </div>
+          <div className="flex items-center mb-4">
+            <img src="../../../public/Icon.svg" alt="" className='mr-4'  />
+            <p className='font-bold text-one text-1xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br /> sed do eiusmod.</p>
+          </div>
         </div>
       </div>
 
