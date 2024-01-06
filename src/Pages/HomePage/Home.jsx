@@ -24,6 +24,15 @@ const Home = () => {
         <h2 className='text-4xl text-center font-bold text-pirmary '>We have the Best Solution <br />
          for your Business</h2>
       </div>
+      <div className='High'>
+        <div>
+          <img src="../../../public/Icon 1.svg" alt="" />
+          <h3>High security to protect from piracy</h3>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
       
     </>
   )
