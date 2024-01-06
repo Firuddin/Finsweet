@@ -45,7 +45,7 @@ const Home = () => {
         <div className=''>
           <h4 className='font-bold text-three text-2xl mb-3'>Why should you work with us?</h4>
           <h2 className='font-bold text-one text-4xl mb-4'>To upscale your business <br /> to the next level</h2>
-          <p className='text-sm'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br />eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam <br />voluptua invidunt ut labore.</p>
+          <p className='text-sm'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br />eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam </p>
         </div>
         <div className="flex flex-col items-center ">
           <div className="flex items-center mb-4">
@@ -61,6 +61,9 @@ const Home = () => {
             <p className='font-bold text-one text-1xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br /> sed do eiusmod.</p>
           </div>
         </div>
+      </div>
+      <div>
+        <h1>salam aleykim</h1>
       </div>
 
     </>
