@@ -1,4 +1,5 @@
 
+import LogoIpsum from '../../Components/LogoIpsum/Jogoipsum'
 import { Navigation } from '../../Components/Navigation/Navigation'
 const Home = () => {
   return (
@@ -57,15 +58,20 @@ const Home = () => {
             <p className='font-bold text-one text-1xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br /> sed do eiusmod.</p>
           </div>
           <div className="flex items-center mb-4">
-            <img src="../../../public/Icon.svg" alt="" className='mr-4'  />
+            <img src="../../../public/Icon.svg" alt="" className='mr-4' />
             <p className='font-bold text-one text-1xl'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br /> sed do eiusmod.</p>
           </div>
         </div>
       </div>
-      <div>
-        <h1>salam aleykim</h1>
+      <div className='bg-tartiary flex items-center ml-20 mr-20 mt-20 w-576 h-435'>
+       <div className='p-10'>
+        <h2 className='font-bold text-pirmary text-4xl mb-5 '>More impressions, more <br /> conversions</h2>
+        <p className='text-gray-700 mb-5'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed<br /> diam nonumy  eirmod tempor invidunt ut labore et dolore<br /> magna aliquyam erat, sed diam  voluptua invidunt ut labore.</p>
+        <button className='px-7 py-2 rounded-lg bg-black text-white border-solid'>Get Free trial</button>
+       </div>
+       <div className=' '><img src="../../../public/Image.png" alt="" className='  p-10'  /></div>
       </div>
-
+<LogoIpsum/>
     </>
   )
 }

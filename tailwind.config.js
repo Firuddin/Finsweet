@@ -13,7 +13,8 @@ export default {
         'pink':"#373FFF",
         'one':"#1D2130",
         'two':"#3ACAF8",
-        'three':"#373FFF"
+        'three':"#373FFF",
+        'four':"#FFFFFF"
               }
     },
   },
