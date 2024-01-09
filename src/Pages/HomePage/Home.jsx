@@ -1,4 +1,5 @@
 
+import Features from '../../Components/Features/Features'
 import LogoIpsum from '../../Components/LogoIpsum/Jogoipsum'
 import { Navigation } from '../../Components/Navigation/Navigation'
 const Home = () => {
@@ -64,14 +65,36 @@ const Home = () => {
         </div>
       </div>
       <div className='bg-tartiary flex items-center ml-20 mr-20 mt-20 w-576 h-435'>
-       <div className='p-10'>
-        <h2 className='font-bold text-pirmary text-4xl mb-5 '>More impressions, more <br /> conversions</h2>
-        <p className='text-gray-700 mb-5'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed<br /> diam nonumy  eirmod tempor invidunt ut labore et dolore<br /> magna aliquyam erat, sed diam  voluptua invidunt ut labore.</p>
-        <button className='px-7 py-2 rounded-lg bg-black text-white border-solid'>Get Free trial</button>
-       </div>
-       <div className=' '><img src="../../../public/Image.png" alt="" className='  p-10'  /></div>
+        <div className='p-10'>
+          <h2 className='font-bold text-pirmary text-4xl mb-5 '>More impressions, more <br /> conversions</h2>
+          <p className='text-gray-700 mb-5'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed<br /> diam nonumy  eirmod tempor invidunt ut labore et dolore<br /> magna aliquyam erat, sed diam  voluptua invidunt ut labore.</p>
+          <button className='px-7 py-2 rounded-lg bg-black text-white border-solid'>Get Free trial</button>
+        </div>
+        <div className=' '><img src="../../../public/Image.png" alt="" className='  p-10' /></div>
       </div>
-<LogoIpsum/>
+      <LogoIpsum />
+      <div className='flex items-center justify-center ml-10 mr-20 mt-20  gap-80  '>
+        <div className=''>
+          <h4 className='font-bold text-three text-2xl mb-3'>Discover More</h4>
+          <h2 className='font-bold text-one text-4xl mb-4'>Analyze your sales and  marketing<br /> leads</h2>
+          <p className='text-sm'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br />eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam </p>
+        </div>
+        <div className="flex flex-col items-center ">
+          <div className="flex items-center mb-4">
+            <img src="../../../public/Feature Icon with circle.png" alt="" className='mr-4 ' />
+            <p className=''><h1 className=' text-one text-1xl font-bold'>Sales Tracking</h1>Lorem ipsum dolor sit amet</p>
+          </div>
+          <div className="flex items-center mb-4">
+            <img src="../../../public/Feature Icon with circle (1).png" alt="" className='mr-4' />
+            <p className=''><h1 className='font-bold text-one text-1xl'>Project Management</h1>Lorem ipsum dolor sit amet</p>
+          </div>
+          <div className="flex items-center mb-4">
+            <img src="../../../public/Feature Icon with circle (2).png" alt="" className='mr-4' />
+            <p className=''><h1 className='font-bold text-one text-1xl'>Activity Report</h1>Lorem ipsum dolor sit amet</p>
+          </div>
+        </div>
+      </div>
+      <Features/>
     </>
   )
 }
