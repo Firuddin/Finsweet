@@ -15,7 +15,8 @@ export default {
         'two':"#3ACAF8",
         'three':"#373FFF",
         'four':"#FFFFFF",
-        'five':"#D798E1"
+        'five':"#D798E1",
+        'six':"#AED3FF"
               }
     },
   },
