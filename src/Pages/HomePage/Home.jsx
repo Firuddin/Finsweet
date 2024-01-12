@@ -1,5 +1,6 @@
 
 import Features from '../../Components/Features/Features'
+import Footer from '../../Components/Footer/Footer'
 import LogoIpsum from '../../Components/LogoIpsum/Jogoipsum'
 import { Navigation } from '../../Components/Navigation/Navigation'
 const Home = () => {
@@ -76,7 +77,7 @@ const Home = () => {
       <div className='flex items-center justify-center ml-10 mr-20 mt-20  gap-80  '>
         <div className=''>
           <h4 className='font-bold text-three text-2xl mb-3'>Discover More</h4>
-          <h2 className='font-bold text-one text-4xl mb-4'>Analyze your sales and  marketing<br /> leads</h2>
+          <h2 className='font-bold text-one text-4xl mb-4'>Analyze your sales and <br />  marketing leads</h2>
           <p className='text-sm'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br />eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam </p>
         </div>
         <div className="flex flex-col items-center ">
@@ -99,23 +100,24 @@ const Home = () => {
         <div><h2 className='text-3xl text-center font-bold text-pirmary'>The stunning results our <br />
           customers have experienced</h2></div>
         <div className=' flex my-10 items-center justify-center gap-20  rounded-xl ml-0 mr-5'>
-          <div className='border border-solid text-center p-10 '>
+          <div className='border border-solid text-center p-10 rounded-xl'>
             <p>Lorem ipsum dolor sit amet,<br /> consetetur sadipscing elitr, sed <br />diam nonumy eirmod tempor <br /> invidunt ut labore et dolore magna <br /> aliquyam erat, sed diam voluptua.</p>
             <img className='h-50 w-20 ml-20 p-2' src="../../../public/pexels-photo-1222271.jpeg" alt="" />
             <h6>Ron wood</h6>
           </div>
-          <div className='border border-solid text-center p-10'>
+          <div className='border border-solid text-center p-10 rounded-xl'>
             <p>Lorem ipsum dolor sit amet,<br /> consetetur sadipscing elitr, sed <br />diam nonumy eirmod tempor <br /> invidunt ut labore et dolore magna <br /> aliquyam erat, sed diam voluptua.</p>
             <img className='h-50 w-20 ml-20 p-2' src="../../../public/small-2.jpeg" alt="" />
             <h6> Şahruddin</h6>
           </div>
-          <div className='border border-solid text-center p-10'>
+          <div className='border border-solid text-center p-10 rounded-xl'>
             <p>Lorem ipsum dolor sit amet,<br /> consetetur sadipscing elitr, sed <br />diam nonumy eirmod tempor <br /> invidunt ut labore et dolore magna <br /> aliquyam erat, sed diam voluptua.</p>
             <img className='h-50 w-20 ml-20 p-2' src="../../../public/small-3.jpeg" alt="" />
             <h6>Qara Bala</h6>
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }
