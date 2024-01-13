@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer"
 import LogoIpsum from "../../Components/LogoIpsum/Jogoipsum"
 import { Navigation } from "../../Components/Navigation/Navigation"
 
@@ -77,6 +78,28 @@ const Product = () => {
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br /> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam <br /> voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita <br /> kasd gubergren.</p>
         </div>
       </div>
+
+      <div className="flex items-center ml-20 mr-0 gap-60 mt-20">
+        <div>
+          <h3 className="text-two font-bold text-1xl pb-5">Lead Generation</h3>
+          <h2 className="font-bold text-pirmary text-4xl pb-8">More leads that convert</h2>
+          <p className="pb-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br /> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam <br /> voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita <br /> kasd gubergren.</p>
+        </div>
+        <div>
+          <img className="max-w-120 max-h-80 mr-20" src="../../../public/Product/Image (4).png" alt="" />
+        </div>
+      </div>
+
+      <div className="flex items-center ml-20 mr-0 gap-60 mt-20">
+        <div>
+          <img className="max-w-120 max-h-80 mr-20" src="../../../public/Product/Image (3).png" alt="" /></div>
+        <div>
+          <h3 className="text-two font-bold text-1xl pb-5">Remote teams</h3>
+          <h2 className="font-bold text-pirmary text-4xl pb-8">Real-time collaboration</h2>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br /> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam <br /> voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clitabr <br /> kasd gubergren.</p>
+        </div>
+      </div>
+      <Footer/>
     </>
 
 
