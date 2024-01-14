@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer"
 import { Navigation } from "../../Components/Navigation/Navigation"
 
 
@@ -15,8 +16,43 @@ const Pricing = () => {
         </div>
       </div>
       <div>
-        <img className="w-160 p-20 h-160" src="../../../public/Product/Plans (1).png" alt="" />
+        <img className="w-160 p-20  pt-20 h-160" src="../../../public/Product/Plans (1).png" alt="" />
       </div>
+
+
+      <div className="flex items-center  bg-seven w-160 p-20 h-160 rounded-2xl ml-20 mr-20 gap-40">
+        <div className="pb-80">
+          <h5 className="font-bold text-pirmary text-3xl pb-3">Frequestly Asked <br />Questions</h5>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing<br />  elitr, sed diam nonumy eirmod tempor invidunt.</p>
+        </div>
+        <div className=" flex flex-col gap-5">
+
+          <div className="bg-four rounded-md p-7 ">
+            <div className="flex items-center gap-80 ">
+              <h5 className="font-bold text-pirmary pb-3">How do I grow my business?</h5>
+              <img src="../../../public/Product/Expander.png" alt="" />
+            </div>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod <br /> tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          </div>
+
+          <div className="bg-four rounded-md p-7 flex items-center gap-80">
+            <h5 className="font-bold text-pirmary">Can I cancel my subscription?</h5>
+            <img src="../../../public/Product/Expander (1).png" alt="" />
+          </div>
+
+          <div className="bg-four rounded-md p-7 flex items-center gap-80">
+            <h5 className="font-bold text-pirmary">How do I contact the suport?</h5>
+            <img src="../../../public/Product/Expander (1).png" alt="" />
+          </div>
+
+          <div className="bg-four rounded-md p-7 flex items-center gap-80">
+            <h5 className="font-bold text-pirmary">Is a credit card the required?</h5>
+            <img src="../../../public/Product/Expander (1).png" alt="" />
+          </div>
+
+        </div>
+      </div>
+      <Footer/>
     </>
   )
 }

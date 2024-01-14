@@ -17,6 +17,7 @@ export default {
         'four':"#FFFFFF",
         'five':"#D798E1",
         'six':"#AED3FF",
+        'seven':"#F0F2FE"
         
         
               }
