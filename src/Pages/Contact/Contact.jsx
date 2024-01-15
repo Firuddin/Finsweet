@@ -6,10 +6,10 @@ const Contact = () => {
   return (
     <>
       <Navigation />
-      <h5 className="flex items-center justify-center font-bold text-pirmary text-3xl p-10">Get in touch with us</h5>
+      <h5 className="flex items-center justify-center font-bold text-pirmary text-3xl p-10">Bizimlə əlaqə saxlayın</h5>
       <div className="bg-seven flex items-center justify-center ml-20 mr-20 pb-10 pt-10 gap-80 rounded-3xl">
         <div className="flex flex-col">
-          <h5 className="font-bold text-pirmary text-2xl mb-4">Drop us a message</h5>
+          <h5 className="font-bold text-pirmary text-2xl mb-4">Bizə mesaj göndərin</h5>
           <p>We will get back to you as soon as possible.</p>
           <div className="p-2">
             <input className="mr-5 p-2 mb-5 mt-5 rounded-md" type="text" placeholder="Full name" />
