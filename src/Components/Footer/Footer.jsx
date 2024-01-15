@@ -4,7 +4,8 @@ const Footer = () => {
     return (
         <div>
             <div className="flex flex-col  items-center justify-center  mb-20 mt-10">
-                <h2 className="font-bold text-pirmary text-3xl text-center">Are you ready to grow your <br /> business with us?</h2>
+                <h2 className="font-bold text-pirmary text-3xl text-center">Özünüzü böyütməyə hazırsınız <br />
+bizimlə iş üçün?</h2>
                 <p className="text-sm mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</p>
                 <button className=" bg-pirmary text-white p-2 mt-5 rounded-md">View Pricing</button>
             </div>
