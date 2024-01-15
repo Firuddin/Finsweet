@@ -7,7 +7,7 @@ const AboutUs = () => {
     <>
       <Navigation />
       <div className="flex flex-col items-center">
-        <h4 className="font-bold text-pirmary text-5xl mb-5 mt-10">We are proud of our products</h4>
+        <h4 className="font-bold text-pirmary text-5xl mb-5 mt-10">Məhsullarımızla fəxr edirik</h4>
         <p className="text-center mb-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor <br /> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
       </div>
       <div className="flex items-center justify-center">
@@ -15,24 +15,25 @@ const AboutUs = () => {
       </div>
       <div className="flex flex-col items-center">
         <h2 className="font-bold text-pink mb-5 mt-5 text-2xl">About Us</h2>
-        <h3 className="font-bold text-4xl text-pirmary mb-5">We’re a team of data analysts</h3>
+        <h3 className="font-bold text-4xl text-pirmary mb-5">Biz məlumat analitiklərindən ibarət komandayıq</h3>
         <p className="text-center mb-20">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor <br /> invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et <br /> justo duo dolores et ea rebum.</p>
       </div>
       <div className="flex items-center bg-seven p-10 gap-20 ">
         <div className="flex flex-col  ml-20">
           <h2 className="font-bold text-pink mb-5 mt-5 text-2xl">Our Goals</h2>
-          <h3 className="font-bold text-4xl text-pirmary mb-5">To upscale your business <br /> to the next level</h3>
+          <h3 className="font-bold text-4xl text-pirmary mb-5">Biznesinizi yüksəltmək üçün <br />
+növbəti səviyyə</h3>
           <p className="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed <br /> diam nonumy eirmod  tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero  eos et accusam et justo duo dolores et ea rebum.</p>
         </div>
         <div className="flex flex-col mr-20 ">
           <h2 className="font-bold text-pink mb-5 mt-5 text-2xl">Our Vision</h2>
-          <h3 className="font-bold text-4xl text-pirmary mb-5">To provide solutions for<br />growing companies</h3>
+          <h3 className="font-bold text-4xl text-pirmary mb-5">Böyüyən şirkətlər üçün həllər <br /> təqdim etmək</h3>
           <p className="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed <br /> diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
         </div>
       </div>
       <div>
         <div className=" flex flex-col items-center justify-center mt-20">
-          <h4 className="font-bold text-4xl text-pirmary mb-4">Our corporate values</h4>
+          <h4 className="font-bold text-4xl text-pirmary mb-4">Korporativ dəyərlərimiz</h4>
           <p className="mb-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
         </div>
         <div className="bg-eight w-160 ml-10 mr-10  rounded-3xl">
@@ -73,7 +74,7 @@ const AboutUs = () => {
 
       <div className="flex items-center gap-20 mt-20 mb-20">
         <div className="mb-80 ml-20 ">
-          <h3 className="font-bold text-4xl text-pirmary ">Our talented Team</h3>
+          <h3 className="font-bold text-4xl text-pirmary ">Bacarıqlı Komandamız</h3>
           <p className="pt-5">Lorem ipsum dolor sit amet, consetetur sadipscing <br /> elitr, sed diam nonumy eirmod tempor invidunt ut <br /> labore.</p>
         </div>
         <div className="">

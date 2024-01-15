@@ -9,7 +9,7 @@ const Product = () => {
       <Navigation />
       <div className="flex items-center ml-20 mr-0 gap-60 mt-20">
         <div>
-          <h2 className="font-bold text-pirmary text-6xl pb-8">Grow your Sales <br />  and Services</h2>
+          <h2 className="font-bold text-pirmary text-6xl pb-8">Satış və xidmətlərinizi artırın</h2>
           <p className="pb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br /> tempor incididunt ut labore et dolore magna aliqua.</p>
           <div className="flex items-center gap-5">
             <button className="bg-pirmary rounded-xl pl-8 pr-8 pt-4 pb-4 text-four ">Get Started</button>
@@ -22,7 +22,8 @@ const Product = () => {
       </div>
       <LogoIpsum />
       <div className="bg-six pb-10">
-        <h2 className="text-center font-bold text-3xl mt-20 pt-20 pb-10">Get the best out of your company <br /> with our service</h2>
+        <h2 className="text-center font-bold text-3xl mt-20 pt-20 pb-10">Şirkətinizdə ən yaxşısını əldə edin <br />
+xidmətimizlə</h2>
         <div className="bg-four w-160 ml-20 mr-20  rounded-3xl">
           <div className="flex items-center justify-center gap-10 p-10">
             <div>
